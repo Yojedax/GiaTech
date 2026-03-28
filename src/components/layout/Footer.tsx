@@ -12,12 +12,12 @@ export default function Footer() {
               <span style={{ color: 'var(--neon)' }}>Gia</span>Tech
             </div>
             <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-              Consultoria boutique de datos e IA.<br />
-              Convertimos informacion en decisiones que generan impacto.
+              Consultoría boutique de datos e IA.<br />
+              Convertimos información en decisiones que generan impacto.
             </p>
             <div className="mt-4 inline-block text-xs font-semibold tracking-widest uppercase px-3 py-1.5 rounded border"
               style={{ borderColor: 'var(--border-neon)', color: 'var(--neon)', background: 'var(--neon-glow)' }}>
-              De los datos a la decision
+              De los datos a la decisión
             </div>
           </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
             <div>
               <div className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: 'var(--text-muted)' }}>Servicios</div>
               <ul className="space-y-2.5">
-                {['Marketing & RFM','Prediccion de Churn','Geolocalizacion','Logistica','Dashboards','Agentes IA'].map(s => (
+                {['Marketing & RFM','Predicción de Churn','Geolocalización','Logística','Dashboards','Agentes IA'].map(s => (
                   <li key={s}><span className="text-sm" style={{ color: 'var(--text-secondary)' }}>{s}</span></li>
                 ))}
               </ul>
@@ -47,12 +47,12 @@ export default function Footer() {
           <div>
             <div className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: 'var(--text-muted)' }}>¿Listo para empezar?</div>
             <p className="text-sm mb-6" style={{ color: 'var(--text-secondary)' }}>
-              Agenda una reunion exploratoria de 30 minutos. Sin costo, sin compromiso.
+              Agendá una reunión exploratoria de 30 minutos. Sin costo, sin compromiso.
             </p>
             <Link href="/contacto"
               className="inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg transition-all hover:shadow-neon-sm"
               style={{ background: 'var(--neon)', color: 'var(--surface-0)' }}>
-              Agendar reunion <ArrowRight size={14} />
+              Agendar reunión <ArrowRight size={14} />
             </Link>
             <div className="mt-8 flex items-center gap-4">
               <a href="mailto:hola@giatech.ai" className="flex items-center gap-2 text-sm transition-colors hover:text-white" style={{ color: 'var(--text-secondary)' }}>

@@ -3,8 +3,8 @@ import { testimonials } from '@/data/content'
 const differentiators = [
   {
     icon: '◎',
-    title: 'Negocio primero, tecnologia despues',
-    description: 'Empezamos por entender que decision necesita tomar el negocio, no por elegir el modelo mas sofisticado.',
+    title: 'Negocio primero, tecnología después',
+    description: 'Empezamos por entender qué decisión necesita tomar el negocio, no por elegir el modelo más sofisticado.',
   },
   {
     icon: '◈',
@@ -14,12 +14,12 @@ const differentiators = [
   {
     icon: '◉',
     title: 'Resultados en semanas, no en meses',
-    description: 'Metodologia agil con quick wins validados desde el primer sprint. El cliente ve impacto antes de la entrega final.',
+    description: 'Metodología ágil con quick wins validados desde el primer sprint. El cliente ve impacto antes de la entrega final.',
   },
   {
     icon: '◆',
     title: 'Soluciones que el equipo puede operar',
-    description: 'Documentamos, capacitamos y disenamos para la autonomia. No generamos dependencia.',
+    description: 'Documentamos, capacitamos y diseñamos para la autonomía. No generamos dependencia.',
   },
 ]
 
@@ -37,7 +37,7 @@ export default function DifferentiatorsSection() {
               className="badge mb-4 text-xs"
               style={{ background: 'rgba(255,255,255,0.05)', color: 'var(--text-secondary)' }}
             >
-              Por que GiaTech
+              Por qué GiaTech
             </div>
             <h2
               className="font-display text-4xl lg:text-5xl font-bold mb-4"
@@ -46,7 +46,7 @@ export default function DifferentiatorsSection() {
               Diferencias que se notan en los resultados
             </h2>
             <p className="max-w-2xl mx-auto leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              No somos una fabrica de software ni un equipo de investigacion. Somos consultores que construyen soluciones que funcionan en el mundo real.
+              No somos una fábrica de software ni un equipo de investigación. Somos consultores que construyen soluciones que funcionan en el mundo real.
             </p>
           </div>
 

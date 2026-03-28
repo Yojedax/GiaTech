@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: 'GiaTech — De los datos a la decisión',
   description: 'Consultoría boutique de datos e IA para empresas que quieren convertir su información en ventaja competitiva real.',
   keywords: ['consultora datos', 'inteligencia artificial', 'machine learning', 'Argentina'],
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

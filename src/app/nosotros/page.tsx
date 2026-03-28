@@ -3,17 +3,17 @@ import { ArrowRight } from 'lucide-react'
 
 export const metadata = {
   title: 'Nosotros — GiaTech',
-  description: 'Consultoria boutique de datos e IA.',
+  description: 'Consultoría boutique de datos e IA.',
 }
 
 const values = [
   {
-    title: 'Negocio antes que tecnologia',
-    description: 'Cada proyecto comienza con una pregunta de negocio, no con una eleccion tecnologica. El modelo mas sofisticado es el que mejor responde la pregunta correcta.',
+    title: 'Negocio antes que tecnología',
+    description: 'Cada proyecto comienza con una pregunta de negocio, no con una elección tecnológica. El modelo más sofisticado es el que mejor responde la pregunta correcta.',
   },
   {
     title: 'Impacto desde la primera semana',
-    description: 'Priorizamos quick wins que demuestran valor rapido. No esperamos al final del proyecto para mostrar resultados.',
+    description: 'Priorizamos quick wins que demuestran valor rápido. No esperamos al final del proyecto para mostrar resultados.',
   },
   {
     title: 'Claridad sobre complejidad',
@@ -21,14 +21,14 @@ const values = [
   },
   {
     title: 'Transferencia real de conocimiento',
-    description: 'Documentamos, capacitamos y disenamos para la autonomia. El cliente no debe depender de nosotros indefinidamente.',
+    description: 'Documentamos, capacitamos y diseñamos para la autonomía. El cliente no debe depender de nosotros indefinidamente.',
   },
 ]
 
 const team = [
   {
     name: 'Equipo de Data Science',
-    focus: 'Modelos predictivos, ML y estadistica aplicada al negocio',
+    focus: 'Modelos predictivos, ML y estadística aplicada al negocio',
     stack: 'Python · scikit-learn · XGBoost · PyTorch',
   },
   {
@@ -38,12 +38,12 @@ const team = [
   },
   {
     name: 'Equipo de IA y Agentes',
-    focus: 'IA generativa, automatizacion de flujos y agentes conversacionales',
+    focus: 'IA generativa, automatización de flujos y agentes conversacionales',
     stack: 'LangChain · Anthropic · OpenAI · RAG',
   },
   {
     name: 'Equipo de Analytics & BI',
-    focus: 'Dashboards ejecutivos, KPIs y reporteria automatizada',
+    focus: 'Dashboards ejecutivos, KPIs y reportería automatizada',
     stack: 'Looker Studio · Power BI · Next.js',
   },
 ]
@@ -66,7 +66,7 @@ export default function NosotrosPage() {
               Construimos soluciones de datos que el negocio realmente puede usar
             </h1>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              GiaTech es una consultora boutique de datos e inteligencia artificial especializada en traducir informacion compleja en decisiones concretas para empresas de logistica, retail y e-commerce en Argentina y la region.
+              GiaTech es una consultoría boutique de datos e inteligencia artificial especializada en traducir información compleja en decisiones concretas para empresas de logística, retail y e-commerce en Argentina y la región.
             </p>
           </div>
         </div>
@@ -82,13 +82,13 @@ export default function NosotrosPage() {
             </h2>
             <div className="space-y-4 text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
               <p>
-                La brecha mas costosa que existe en las empresas no es entre tener datos o no tenerlos. Es entre tener datos y saber que decision tomar con ellos.
+                La brecha más costosa que existe en las empresas no es entre tener datos o no tenerlos. Es entre tener datos y saber qué decisión tomar con ellos.
               </p>
               <p>
-                Nos especializamos en cerrar esa brecha. Nuestro equipo combina experiencia tecnica profunda en datos y machine learning con una comprension real de los procesos de negocio.
+                Nos especializamos en cerrar esa brecha. Nuestro equipo combina experiencia técnica profunda en datos y machine learning con una comprensión real de los procesos de negocio.
               </p>
               <p>
-                No somos una fabrica de software. No somos un laboratorio de investigacion. Somos consultores que construyen cosas que funcionan en el mundo real, que el equipo puede usar desde el dia uno.
+                No somos una fábrica de software. No somos un laboratorio de investigación. Somos consultores que construyen cosas que funcionan en el mundo real, que el equipo puede usar desde el día uno.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function NosotrosPage() {
           <div className="grid grid-cols-1 gap-4">
             {[
               { icon: '◎', label: 'Negocio + Datos', desc: 'Entendemos el negocio antes de modelar.' },
-              { icon: '◈', label: 'Implementacion real', desc: 'Del modelo al dashboard que el equipo usa.' },
+              { icon: '◈', label: 'Implementación real', desc: 'Del modelo al dashboard que el equipo usa.' },
               { icon: '◉', label: 'Quick wins primero', desc: 'Impacto en semanas, no en meses.' },
               { icon: '◆', label: 'Escalabilidad', desc: 'Soluciones que crecen con el negocio.' },
             ].map((p) => (
@@ -128,7 +128,7 @@ export default function NosotrosPage() {
           <div className="max-w-xl mb-12">
             <div className="badge badge-neon mb-4">Valores</div>
             <h2 className="font-display text-4xl font-bold" style={{ color: 'var(--text-primary)' }}>
-              Como pensamos el trabajo
+              Cómo pensamos el trabajo
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -183,14 +183,14 @@ export default function NosotrosPage() {
             ¿Trabajamos juntos?
           </h2>
           <p className="mb-8 max-w-lg mx-auto" style={{ color: 'var(--text-secondary)' }}>
-            Contanos el desafio y en 30 minutos te decimos si podemos ayudarte y como.
+            Contanos el desafío y en 30 minutos te decimos si podemos ayudarte y cómo.
           </p>
           <Link
             href="/contacto"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-sm transition-all hover:shadow-neon hover:-translate-y-0.5"
             style={{ background: 'var(--neon)', color: 'var(--surface-0)' }}
           >
-            Agendar reunion exploratoria <ArrowRight size={14} />
+            Agendar reunión exploratoria <ArrowRight size={14} />
           </Link>
         </div>
       </section>

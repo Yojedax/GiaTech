@@ -44,10 +44,10 @@ export default function FAQAndCTA() {
           <div className="text-center mb-12">
             <div className="badge badge-neutral mb-4">Herramientas</div>
             <h2 className="font-display text-3xl lg:text-4xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
-              Stack tecnologico
+              Stack tecnológico
             </h2>
             <p className="text-sm max-w-lg mx-auto" style={{ color: 'var(--text-secondary)' }}>
-              Seleccionamos las herramientas mas adecuadas para cada proyecto. Sin dogmas de stack.
+              Seleccionamos las herramientas más adecuadas para cada proyecto. Sin dogmas de stack.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ export default function FAQAndCTA() {
                 Preguntas frecuentes
               </h2>
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                Las dudas mas comunes que surgen antes de empezar un proyecto de datos.
+                Las dudas más comunes que surgen antes de empezar un proyecto de datos.
               </p>
             </div>
             <div className="lg:col-span-2">
@@ -122,13 +122,13 @@ export default function FAQAndCTA() {
             className="inline-block text-xs font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full border mb-6"
             style={{ borderColor: 'var(--border-neon)', color: 'var(--neon)' }}
           >
-            De los datos a la decision
+            De los datos a la decisión
           </div>
           <h2 className="font-display text-4xl lg:text-6xl font-bold mb-6 leading-tight" style={{ color: 'var(--text-primary)' }}>
-            ¿Cuanto dinero esta dejando sobre la mesa?
+            ¿Cuánto dinero está dejando sobre la mesa?
           </h2>
           <p className="text-lg mb-10 max-w-xl mx-auto leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-            Una reunion de 30 minutos es suficiente para identificar los tres proyectos de mayor impacto para su empresa este ano.
+            Una reunión de 30 minutos es suficiente para identificar los tres proyectos de mayor impacto para su empresa este año.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
@@ -136,7 +136,7 @@ export default function FAQAndCTA() {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold text-sm transition-all hover:shadow-neon hover:-translate-y-0.5"
               style={{ background: 'var(--neon)', color: 'var(--surface-0)' }}
             >
-              Agendar reunion exploratoria <ArrowRight size={14} />
+              Agendar reunión exploratoria <ArrowRight size={14} />
             </Link>
             <Link
               href="/demos"

@@ -13,46 +13,46 @@ const demos = [
     id: 'rfm',
     icon: TrendingUp,
     title: 'Marketing & RFM',
-    subtitle: 'Segmentacion y churn',
-    problem: 'Campanas genericas que no convierten y clientes que se van sin aviso previo.',
-    solution: 'Segmentacion RFM automatica con scores de propension y acciones recomendadas por cliente.',
-    value: 'Hasta 4x de conversion y -32% de tasa de abandono.',
+    subtitle: 'Segmentación y churn',
+    problem: 'Campañas genéricas que no convierten y clientes que se van sin aviso previo.',
+    solution: 'Segmentación RFM automática con scores de propensión y acciones recomendadas por cliente.',
+    value: 'Hasta 4x de conversión y -32% de tasa de abandono.',
   },
   {
     id: 'geo',
     icon: MapPin,
-    title: 'Geolocalizacion',
+    title: 'Geolocalización',
     subtitle: 'Calidad de domicilios',
     problem: 'Bases de direcciones sucias que generan entregas fallidas y costos ocultos.',
-    solution: 'Normalizacion, validacion y geocodificacion con score de confianza por registro.',
-    value: 'Hasta 94% de validacion. -60% en entregas fallidas.',
+    solution: 'Normalización, validación y geocodificación con score de confianza por registro.',
+    value: 'Hasta 94% de validación. -60% en entregas fallidas.',
   },
   {
     id: 'logistics',
     icon: Truck,
-    title: 'Logistica',
-    subtitle: 'Optimizacion de rutas',
-    problem: 'Rutas manuales con vehiculos subutilizados y costos logisticos fuera de control.',
+    title: 'Logística',
+    subtitle: 'Optimización de rutas',
+    problem: 'Rutas manuales con vehículos subutilizados y costos logísticos fuera de control.',
     solution: 'Algoritmos de ruteo que minimizan distancia, tiempo y costo respetando restricciones operativas.',
-    value: '-38% en costos logisticos. +42% en ocupacion de flota.',
+    value: '-38% en costos logísticos. +42% en ocupación de flota.',
   },
   {
     id: 'retention',
     icon: Users,
-    title: 'Retencion',
+    title: 'Retención',
     subtitle: 'Acciones comerciales',
-    problem: 'Clientes estrategicos que bajan el uso sin que el equipo lo note hasta que ya se fueron.',
-    solution: 'Monitoreo de senales de riesgo con acciones sugeridas por cliente y tablero ejecutivo.',
-    value: 'Alertas tempranas. Recuperacion del 70% del revenue en riesgo.',
+    problem: 'Clientes estratégicos que bajan el uso sin que el equipo lo note hasta que ya se fueron.',
+    solution: 'Monitoreo de señales de riesgo con acciones sugeridas por cliente y tablero ejecutivo.',
+    value: 'Alertas tempranas. Recuperación del 70% del revenue en riesgo.',
   },
   {
     id: 'transformer',
     icon: Sparkles,
     title: 'Transformador IA',
     subtitle: 'Tu empresa con IA',
-    problem: '¿Como quedaria tu empresa si implementara datos e IA de verdad?',
-    solution: 'Ingresa la URL de tu sitio y nuestra IA genera una vision concreta de la transformacion posible.',
-    value: 'Vision personalizada + casos de uso + estimacion de inversion.',
+    problem: '¿Cómo quedaría tu empresa si implementara datos e IA de verdad?',
+    solution: 'Ingresá la URL de tu sitio y nuestra IA genera una visión concreta de la transformación posible.',
+    value: 'Visión personalizada + casos de uso + estimación de inversión.',
     highlight: true,
   },
 ]
@@ -76,10 +76,10 @@ export default function DemosPage() {
             </div>
             <h1 className="font-display text-5xl lg:text-6xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
               Toca los datos.<br />
-              <span className="gradient-text">Entende el impacto.</span>
+              <span className="gradient-text">Entendé el impacto.</span>
             </h1>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              Cinco demos interactivas con datos mock realistas. Explora las soluciones que construiriamos para tu empresa.
+              Cinco demos interactivas con datos mock realistas. Explorá las soluciones que construiríamos para tu empresa.
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function DemosPage() {
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{active.problem}</p>
             </div>
             <div>
-              <div className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: 'var(--text-muted)' }}>Solucion</div>
+              <div className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: 'var(--text-muted)' }}>Solución</div>
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{active.solution}</p>
             </div>
             <div>

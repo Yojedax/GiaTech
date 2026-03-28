@@ -72,7 +72,7 @@ export default function Navbar() {
             className="text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:shadow-neon-sm"
             style={{ background: 'var(--neon-dark)', color: '#fff' }}
           >
-            Agendar reunion
+            Agendar reunión
           </Link>
         </div>
 
@@ -107,7 +107,7 @@ export default function Navbar() {
             <Link href="/contacto" onClick={() => setOpen(false)}
               className="text-sm font-semibold text-center py-2.5 rounded-lg text-white"
               style={{ background: 'var(--neon-dark)' }}>
-              Agendar reunion
+              Agendar reunión
             </Link>
           </div>
         </div>
