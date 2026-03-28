@@ -9,10 +9,10 @@ export default function ServicesSection() {
         <div className="max-w-2xl mb-14">
           <div className="badge badge-neon mb-4">Servicios</div>
           <h2 className="font-display text-4xl lg:text-5xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
-            Soluciones concretas para cada desafio de negocio
+            Soluciones concretas para cada desafío de negocio
           </h2>
           <p style={{ color: 'var(--text-secondary)' }} className="leading-relaxed">
-            Trabajamos en seis areas donde los datos tienen impacto directo y medible en los resultados de la empresa.
+            Trabajamos en seis áreas donde los datos tienen impacto directo y medible en los resultados de la empresa.
           </p>
         </div>
 

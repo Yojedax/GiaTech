@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2.5 mb-8 px-4 py-1.5 rounded-full border text-xs font-semibold uppercase tracking-widest"
               style={{ borderColor: 'var(--border-neon)', color: 'var(--neon)', background: 'var(--neon-glow)' }}>
               <span className="w-1.5 h-1.5 rounded-full animate-pulse-soft" style={{ background: 'var(--neon)' }} />
-              Consultoria · Datos & IA
+              Consultoría · Datos & IA
             </div>
 
             {/* Headline */}
@@ -38,7 +38,7 @@ export default function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl leading-relaxed max-w-xl mb-10 font-light" style={{ color: 'var(--text-secondary)' }}>
-              Ayudamos a empresas de logistica, retail y e-commerce a convertir su informacion en decisiones concretas: menos churn, menos costos operativos y mas conversion desde el primer mes.
+              Ayudamos a empresas de logística, retail y e-commerce a convertir su información en decisiones concretas: menos churn, menos costos operativos y más conversión desde el primer mes.
             </p>
 
             {/* CTAs */}
@@ -51,16 +51,16 @@ export default function Hero() {
               <Link href="/contacto"
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold border transition-all hover:-translate-y-0.5"
                 style={{ borderColor: 'var(--border-light)', color: 'var(--text-primary)' }}>
-                Agendar una reunion
+                Agendar una reunión
               </Link>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 max-w-sm">
               {[
-                { value: '-38%', label: 'Costo logistico' },
+                { value: '-38%', label: 'Costo logístico' },
                 { value: '-32%', label: 'Tasa de churn' },
-                { value: '4x',   label: 'Conversion' },
+                { value: '4x',   label: 'Conversión' },
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-2xl lg:text-3xl font-display font-extrabold mb-0.5" style={{ color: 'var(--neon)' }}>
@@ -80,7 +80,7 @@ export default function Hero() {
                 <span className="badge" style={{ background: 'rgba(239,68,68,0.15)', color: '#f87171' }}>⚠ Riesgo Alto</span>
               </div>
               <p className="text-sm font-medium mb-1" style={{ color: 'var(--text-primary)' }}>3 clientes en riesgo de abandono</p>
-              <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>Perdida potencial: $1.69M / ano</p>
+              <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>Pérdida potencial: $1.69M / año</p>
               <div className="space-y-2">
                 {['Constructora Del Plata', 'LogiGroup Argentina', 'Distribuidora Sur'].map((c) => (
                   <div key={c} className="flex items-center justify-between text-xs py-1.5 px-2.5 rounded-lg" style={{ background: 'var(--surface-3)' }}>

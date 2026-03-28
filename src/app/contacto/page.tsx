@@ -4,13 +4,13 @@ import { useState } from 'react'
 import { Mail, Linkedin, ArrowRight, CheckCircle, Loader2 } from 'lucide-react'
 
 const challenges = [
-  'Churn / retencion de clientes',
-  'Segmentacion y marketing',
-  'Optimizacion logistica',
+  'Churn / retención de clientes',
+  'Segmentación y marketing',
+  'Optimización logística',
   'Calidad de datos / domicilios',
   'Dashboard y monitoreo de KPIs',
-  'Automatizacion con IA',
-  'Otro desafio',
+  'Automatización con IA',
+  'Otro desafío',
 ]
 
 export default function ContactoPage() {
@@ -54,10 +54,10 @@ export default function ContactoPage() {
               Contacto
             </div>
             <h1 className="font-display text-5xl lg:text-6xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
-              Empezamos con una conversacion
+              Empezamos con una conversación
             </h1>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              Sin costo, sin compromiso. 30 minutos para entender su desafio y evaluar juntos si podemos generar impacto.
+              Sin costo, sin compromiso. 30 minutos para entender su desafío y evaluar juntos si podemos generar impacto.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function ContactoPage() {
                   ¡Recibimos tu mensaje!
                 </h2>
                 <p className="text-sm mb-6 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  El equipo de GiaTech te va a escribir en las proximas 24 horas para agendar la reunion exploratoria.
+                  El equipo de GiaTech te va a escribir en las próximas 24 horas para agendar la reunión exploratoria.
                 </p>
                 <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
                   Mientras tanto, podes explorar nuestras <a href="/demos" style={{ color: 'var(--neon)' }} className="underline">demos interactivas</a>.
@@ -83,7 +83,7 @@ export default function ContactoPage() {
             ) : (
               <div className="card p-8">
                 <h2 className="font-display text-2xl font-bold mb-6" style={{ color: 'var(--text-primary)' }}>
-                  Contanos sobre tu desafio
+                  Contanos sobre tu desafío
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -144,7 +144,7 @@ export default function ContactoPage() {
 
                 <div className="mb-4">
                   <label className="block text-xs font-semibold uppercase tracking-widest mb-1.5" style={{ color: 'var(--text-muted)' }}>
-                    Principal desafio
+                    Principal desafío
                   </label>
                   <select
                     name="desafio"
@@ -153,7 +153,7 @@ export default function ContactoPage() {
                     className="w-full px-4 py-3 rounded-xl border text-sm outline-none transition-colors focus:border-cyan-500"
                     style={inputStyle}
                   >
-                    <option value="">Selecciona el area de mayor impacto</option>
+                    <option value="">Seleccioná el área de mayor impacto</option>
                     {challenges.map((c) => (
                       <option key={c} value={c}>{c}</option>
                     ))}
@@ -162,13 +162,13 @@ export default function ContactoPage() {
 
                 <div className="mb-6">
                   <label className="block text-xs font-semibold uppercase tracking-widest mb-1.5" style={{ color: 'var(--text-muted)' }}>
-                    Contanos mas (opcional)
+                    Contanos más (opcional)
                   </label>
                   <textarea
                     name="mensaje"
                     value={form.mensaje}
                     onChange={handleChange}
-                    placeholder="Descripcion del contexto, que datos tienen, que decisiones necesitan tomar..."
+                    placeholder="Descripción del contexto, qué datos tienen, qué decisiones necesitan tomar..."
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl border text-sm outline-none transition-colors focus:border-cyan-500"
                     style={{ ...inputStyle, resize: 'vertical' }}
@@ -184,12 +184,12 @@ export default function ContactoPage() {
                   {loading ? (
                     <><Loader2 size={15} className="animate-spin" /> Enviando...</>
                   ) : (
-                    <>Agendar reunion exploratoria <ArrowRight size={15} /></>
+                    <>Agendar reunión exploratoria <ArrowRight size={15} /></>
                   )}
                 </button>
 
                 <p className="text-xs text-center mt-3" style={{ color: 'var(--text-muted)' }}>
-                  Sin spam. Solo te contactamos para agendar la reunion.
+                  Sin spam. Solo te contactamos para agendar la reunión.
                 </p>
               </div>
             )}
@@ -199,12 +199,12 @@ export default function ContactoPage() {
           <div className="lg:col-span-2 space-y-6">
             {/* What to expect */}
             <div className="card p-6">
-              <h3 className="font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>Que pasa despues</h3>
+              <h3 className="font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>Qué pasa después</h3>
               <div className="space-y-4">
                 {[
-                  { step: '01', text: 'Recibis confirmacion en menos de 24 horas habiles' },
-                  { step: '02', text: '30 minutos de reunion exploratoria sin costo' },
-                  { step: '03', text: 'Diagnostico rapido del potencial impacto en tu empresa' },
+                  { step: '01', text: 'Recibís confirmación en menos de 24 horas hábiles' },
+                  { step: '02', text: '30 minutos de reunión exploratoria sin costo' },
+                  { step: '03', text: 'Diagnóstico rápido del potencial impacto en tu empresa' },
                   { step: '04', text: 'Propuesta concreta si hay fit real' },
                 ].map((s) => (
                   <div key={s.step} className="flex gap-3 items-start">
@@ -254,7 +254,7 @@ export default function ContactoPage() {
               style={{ background: 'linear-gradient(135deg, rgba(0,212,255,0.15) 0%, rgba(124,58,237,0.1) 100%)', border: '1px solid var(--border-neon)' }}
             >
               <div className="font-display text-2xl font-bold mb-1" style={{ color: 'var(--neon)' }}>
-                &ldquo;De los datos a la decision&rdquo;
+                &ldquo;De los datos a la decisión&rdquo;
               </div>
               <div className="text-xs uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>GiaTech · Data & AI</div>
             </div>

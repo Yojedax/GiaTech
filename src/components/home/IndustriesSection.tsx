@@ -7,10 +7,10 @@ export default function IndustriesSection() {
         <div className="max-w-2xl mb-14">
           <div className="badge badge-neon mb-4">Industrias</div>
           <h2 className="font-display text-4xl lg:text-5xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
-            Trabajamos con empresas que tienen datos y quieren mas
+            Trabajamos con empresas que tienen datos y quieren más
           </h2>
           <p style={{ color: 'var(--text-secondary)' }} className="leading-relaxed">
-            Nuestros proyectos generan impacto en operaciones, marketing y customer analytics en sectores donde los datos son activos estrategicos sin explotar.
+            Nuestros proyectos generan impacto en operaciones, marketing y customer analytics en sectores donde los datos son activos estratégicos sin explotar.
           </p>
         </div>
 
