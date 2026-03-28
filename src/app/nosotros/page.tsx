@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 export const metadata = {
   title: 'Nosotros — GiaTech',
-  description: 'Consultoría boutique de datos e IA.',
+  description: 'Consultoría de datos & IA.',
 }
 
 const values = [
@@ -66,7 +66,7 @@ export default function NosotrosPage() {
               Construimos soluciones de datos que el negocio realmente puede usar
             </h1>
             <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-              GiaTech es una consultoría boutique de datos e inteligencia artificial especializada en traducir información compleja en decisiones concretas para empresas de logística, retail y e-commerce en Argentina y la región.
+              GiaTech es una consultoría de datos & inteligencia artificial especializada en traducir información compleja en decisiones concretas para empresas de logística, retail y e-commerce en Argentina y la región.
             </p>
           </div>
         </div>

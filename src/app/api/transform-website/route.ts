@@ -13,14 +13,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'API key no configurada' }, { status: 500 })
     }
 
-    const prompt = `Sos un consultor experto en datos e IA para negocios. Un potencial cliente te compartió la URL de su sitio web: ${url}
+    const prompt = `Sos un consultor experto en datos & IA para negocios. Un potencial cliente te compartió la URL de su sitio web: ${url}
 
-Basándote en la URL y el dominio, inferí el tipo de empresa, industria y procesos de negocio que probablemente tienen. Generá un análisis de cómo GiaTech (una consultora boutique de datos e IA) podría transformar esa empresa.
+Basándote en la URL y el dominio, inferí el tipo de empresa, industria y procesos de negocio que probablemente tienen. Generá un análisis de cómo GiaTech (una consultora de datos & IA) podría transformar esa empresa.
 
 Respondé ÚNICAMENTE con un JSON válido con esta estructura exacta, sin texto adicional:
 {
   "original": "Descripción breve de cómo parece ser la empresa hoy (2-3 oraciones, lenguaje ejecutivo)",
-  "improved": "Visión de cómo quedaría esa empresa después de implementar soluciones de datos e IA con GiaTech (3-4 oraciones, foco en impacto de negocio)",
+  "improved": "Visión de cómo quedaría esa empresa después de implementar soluciones de datos & IA con GiaTech (3-4 oraciones, foco en impacto de negocio)",
   "improvements": [
     "Mejora concreta 1 con impacto cuantificable",
     "Mejora concreta 2 con impacto cuantificable",

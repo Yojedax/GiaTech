@@ -193,7 +193,7 @@ export default function DemoTransformer() {
           <div>
             <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>Transformador de Sitios Web con IA</div>
             <p className="text-xs leading-relaxed mt-1" style={{ color: 'var(--text-secondary)' }}>
-              Ingresá la URL de tu sitio actual. Nuestra IA analiza el rubro y los procesos del negocio para generar una visión concreta de cómo tu empresa se vería con soluciones de datos e inteligencia artificial.
+              Ingresá la URL de tu sitio actual. Nuestra IA analiza el rubro y los procesos del negocio para generar una visión concreta de cómo tu empresa se vería con soluciones de datos & inteligencia artificial.
             </p>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function DemoTransformer() {
               <div className="card p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Sparkles size={16} style={{ color: '#00d4ff' }} />
-                  <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>Tu empresa con datos e IA</div>
+                  <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>Tu empresa con datos & IA</div>
                 </div>
                 <p className="text-sm leading-relaxed mb-5" style={{ color: 'var(--text-secondary)' }}>{result.improved}</p>
                 <div className="space-y-2">
