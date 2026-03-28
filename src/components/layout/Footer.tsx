@@ -12,7 +12,7 @@ export default function Footer() {
               <span style={{ color: 'var(--neon)' }}>Gia</span>Tech
             </div>
             <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-              Consultoría boutique de datos e IA.<br />
+              Consultoría de datos & IA.<br />
               Convertimos información en decisiones que generan impacto.
             </p>
             <div className="mt-4 inline-block text-xs font-semibold tracking-widest uppercase px-3 py-1.5 rounded border"

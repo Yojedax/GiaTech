@@ -4,7 +4,7 @@ import { services } from '@/data/content'
 
 export const metadata = {
   title: 'Servicios — GiaTech',
-  description: 'Soluciones de datos e IA para logística, retail y e-commerce.',
+  description: 'Soluciones de datos & IA para logística, retail y e-commerce.',
 }
 
 export default function ServiciosPage() {

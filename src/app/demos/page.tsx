@@ -50,7 +50,7 @@ const demos = [
     icon: Sparkles,
     title: 'Transformador IA',
     subtitle: 'Tu empresa con IA',
-    problem: '¿Cómo quedaría tu empresa si implementara datos e IA de verdad?',
+    problem: '¿Cómo quedaría tu empresa si implementara datos & IA de verdad?',
     solution: 'Ingresá la URL de tu sitio y nuestra IA genera una visión concreta de la transformación posible.',
     value: 'Visión personalizada + casos de uso + estimación de inversión.',
     highlight: true,
